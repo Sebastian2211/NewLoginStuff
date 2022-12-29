@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .container-fluid {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    background-image: url(thumb-1920-109064.jpg);
+  }
+  .submit:hover {
+    cursor: pointer;
+  }
+  .loginbox {
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 10px 10px 10px 10px black;
+    border-style: solid lightblue;
+    height: 50%;
+    width: 30%;
+    padding: 50px, 50px, 50px, 50px;
+    text-align: center;
+    border-radius: 20cm 5cm 40cm 11cm;
+  }
+
+  .input1 {
+    padding: 20px 30px 20px 30px;
+    font-family: monospace;
+    border-radius: 5cm;
+    
+  }
+  .input2 {
+    padding: 0px 30px 10px 30px;
+    font-family: monospace;
+  }
+  .forgot {
+    padding-bottom: 10px;
+    font-family: monospace;
+  }
+  .loginbox header {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: 60px;
+    text-align: ;
+    font-weight: 700;
+    color: white;
+  }
+
+  #Yes {
+    border-radius: 2cm;
+    padding: 2%;
+  }
+
+  #Yes:hover {
+    cursor: pointer;
+    background-color: rgb(137, 190, 255);
+
+  }
+
+  .text-7 {
+    color: red;
+  }
+
+  #Login {
+    border-radius: 5cm;
+    padding: 2%;
+  }
+
+  #password {
+    border-radius: 5cm;
+    padding: 2%;
+  }

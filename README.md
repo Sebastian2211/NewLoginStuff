@@ -1,3 +1,3 @@
 Personal project WIP
 
-<img src="/Capture" alt="Preview" width=50% />
+<img src="/Capture.PNG" alt="Preview" width=50% />

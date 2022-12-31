@@ -1,3 +1,3 @@
 Personal project WIP
 
-<img src="
+<img src="/" alt="Preview" width=50% />

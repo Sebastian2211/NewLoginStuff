@@ -16,35 +16,36 @@ html, body {
   }
   .loginbox {
     background-color: rgba(0, 0, 0, .3);
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 0px 0px 30px 0px rgb(182, 232, 255);
     border-style: solid lightblue;
-    height: 50%;
+    height: 60%;
     width: 30%;
     padding: 50px, 50px, 50px, 50px;
     text-align: center;
     border-radius: 20cm 5cm 40cm 11cm;
+    border: solid 5px;
   }
 
   .input1 {
     padding: 20px 30px 20px 30px;
-    font-family: monospace;
+    font-family: 'Mass Effect Game 123';
     border-radius: 5cm;
     
   }
   .input2 {
     padding: 0px 30px 10px 30px;
-    font-family: monospace;
+    font-family: 'Mass Effect Game 123';
   }
   .forgot {
     padding-bottom: 10px;
-    font-family: monospace;
+    font-family: 'Mass Effect Game 123';
+    color: rgb(255, 0, 0);
   }
   .loginbox header {
     padding-top: 50px;
     padding-left: 20px;
-    font-family: monospace;
-    font-size: 60px;
-    text-align: ;
+    font-family: 'Mass Effect Game 123';
+    font-size: 40px; 
     font-weight: 700;
     color: white;
   }
@@ -52,6 +53,7 @@ html, body {
   #Yes {
     border-radius: 2cm;
     padding: 2%;
+    font-family: 'Mass Effect Game 123';
   }
 
   #Yes:hover {
@@ -72,4 +74,24 @@ html, body {
   #password {
     border-radius: 5cm;
     padding: 2%;
+  }
+
+  #servicenumber{
+    border-radius: 5cm;
+    padding: 2%;
+  }
+
+  .idinput{
+    padding-bottom: 18px;
+  }
+
+  .heading {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 1cm;
+    font-size: 60px;
+    font-family: 'Mass Effect Game 123';
+    border: solid rgb(255, 0, 0);
+    background-color: black;
+    box-shadow: 0px 0px 40px 0px;;
   }

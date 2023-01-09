@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>N7-Login</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -13,6 +13,35 @@
     <div class="heading">
       When Earth requires the best
     </div>
+
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openWindow(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openWindow(event, 'Learn More')">Learn More</button>
+    <button class="tablinks" onclick="openWindow(event, 'History')">History</button>
+  </div>
+
+    
+  
+
+  <!-- Tab content -->
+  <div id="Home" class="tabcontent">
+    <h3>Come Back</h3>
+    <p>Everything you need is here</p>
+  </div>
+
+  <div id="Learn More" class="tabcontent">
+    <h3>What we can offer you</h3>
+    <p>Wantinf to know more of what we can provide for you?.</p>
+  </div>
+
+  <div id="History" class="tabcontent">
+    <h3>The history of the N7</h3>
+    <p>We have a long history that spans almost 100 years.</p>
+  </div>
+
+
+    <!-- Loginbox -->
     <div class="loginbox">
       <div class="Head">
         <header>N<span class="text-7">7</span> Welcome</header>
@@ -31,18 +60,20 @@
       </div>
       <input type="submit" value="submit" id="Yes"></input>
     </div>
+
+    <!-- Footer and link -->
+    <footer id="footer">
+      <p>Interested in becoming a pillar of the Alliance military?
+        <a href="https://www.ea.com/games/mass-effect/mass-effect-legendary-edition">Click this link and fill out the<br> document to see if you meet the criteria.</a>
+      </p>    
+    </footer>
   </div>
-  
-  
-  
-  
+
+
+
+
   <script src="script.js"></script>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  --> 
 </body>
 
 </html>

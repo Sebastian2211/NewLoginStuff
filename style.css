@@ -8,6 +8,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: lightblue;
     background-image: url(thumb-1920-109064.jpg);
   }
@@ -15,15 +16,14 @@ html, body {
     cursor: pointer;
   }
   .loginbox {
-    background-color: rgba(0, 0, 0, .3);
-    box-shadow: 0px 0px 30px 0px rgb(182, 232, 255);
-    border-style: solid lightblue;
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 40px 0px rgb(182, 232, 255);
     height: 60%;
     width: 30%;
     padding: 50px, 50px, 50px, 50px;
     text-align: center;
     border-radius: 20cm 5cm 40cm 11cm;
-    border: solid 5px;
+    margin-top: 10px;
   }
 
   .input1 {
@@ -42,7 +42,7 @@ html, body {
     color: rgb(255, 0, 0);
   }
   .loginbox header {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 20px;
     font-family: 'Mass Effect Game 123';
     font-size: 40px; 
@@ -86,12 +86,84 @@ html, body {
   }
 
   .heading {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 231, 231);
     position: absolute;
     top: 1cm;
     font-size: 60px;
     font-family: 'Mass Effect Game 123';
-    border: solid rgb(255, 0, 0);
-    background-color: black;
-    box-shadow: 0px 0px 40px 0px;;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 40px 0px;
+    padding: 10px;
+  }
+
+  #footer {
+    display: grid;
+    color: aqua;
+    font-family: 'Mass Effect Game 123';
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    
+  }
+
+  a:link {
+    color: rgb(0, 208, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 0, 43);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(165, 86, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(140, 1, 196);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  /* Tabs */
+  .tab {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 3.5cm;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Mass Effect Game 123';
+    margin-bottom: ;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
   }
